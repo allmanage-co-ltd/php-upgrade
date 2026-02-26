@@ -12,7 +12,7 @@
 
 ```sh
 # リポジトリのクローン
-git clone https://github.com/allmanage-co-ltd/php-upgrade
+git clone https://github.com/allmanage-co-ltd/php-upgrade.git
 
 # ツールのディレクトリに移動
 cd php-upgrade
