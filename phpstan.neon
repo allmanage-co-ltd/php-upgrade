@@ -1,0 +1,12 @@
+parameters:
+    level: 3
+    phpVersion: 80300
+    paths:
+        - ../
+    excludePaths:
+        - ../inc/vendor/*
+        - vendor/*
+    inferPrivatePropertyTypeFromConstructor: true
+
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon

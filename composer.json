@@ -1,0 +1,13 @@
+{
+    "name": "allmanage-co-ltd/phpupgrade",
+    "require-dev": {
+        "rector/rector": "^2.3",
+        "phpstan/phpstan": "^2.1",
+        "szepeviktor/phpstan-wordpress": "^2.0"
+    },
+    "scripts": {
+        "rector-d": "vendor/bin/rector process --dry-run > rector/rector-dry-run.log || true",
+        "rector": "vendor/bin/rector process > rector/rector.log || true",
+        "stan": "vendor/bin/phpstan analyse -c phpstan.neon > phpstan/phpstan.log || true"
+    }
+}
